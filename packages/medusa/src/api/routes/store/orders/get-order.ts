@@ -11,7 +11,8 @@ import { cleanResponseData } from "../../../../utils/clean-response-data"
  * description: "Retrieves an Order"
  * parameters:
  *   - (path) id=* {string} The id of the Order.
- *   - (query) fields {string} (Comma separated) Which fields should be included in the result.
+ *  - (query) fields {string} (Comma separated) Which fields should be included in the result.
+ *   - (query) expand {string} (Comma separated) Which fields should be expanded in the result.
  * x-codeSamples:
  *   - lang: JavaScript
  *     label: JS Client
